@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Redeclaring a Variable Using let</h2>
+
+<p id="demo"></p>
+
+<script>
+let  x = "Let is an alternate way for the var keyword";
+// Here x is 10
+
+let y = " There is also called const ";
+
+let res = x+y;
+
+{  
+  let x = 2;
+  // Here x is 2
+}
+
+// Here x is 10
+document.getElementById("demo").innerHTML = res;
+</script>
+
+</body>
+</html>
